@@ -1,16 +1,15 @@
 {
-  "functionApp": {
-    "folder": "./functions",
-    "name": "azurefunctionbazel-5816",
-    "hostName": "azurefunctionbazel-5816.azurewebsites.net"
-  },
-  "storage": {
-    "location": "westeurope",
-    "name": "azurefunctionbazel5816"
-  },
-  "resourceGroup": {
+  "project": {
     "location": "westeurope",
     "name": "azurefunctionbazel"
   },
-  "project": "azurefunctionbazel"
+  "storage": {
+    "location": "westeurope",
+    "name": "azurefunctionbazel78565"
+  },
+  "functions": {
+    "folder": "./functions",
+    "name": "workspacetest-58607",
+    "hostName": "azurefunctionbazel-78565.azurewebsites.net"
+  }
 }
