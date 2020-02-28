@@ -1,0 +1,17 @@
+load("@npm_bazel_typescript//:index.bzl", "ts_library")
+
+package(default_visibility = ["//visibility:public"])
+
+ts_library(
+    name = "httpTrigger",
+    srcs = ["index.ts"],
+    deps = [
+        ":httpTrigger_lib",
+        "@npm//@azure/functions",
+    ],
+)
+
+ts_library(
+    name = "httpTrigger_lib",
+    srcs = ["lib.ts"],
+)
